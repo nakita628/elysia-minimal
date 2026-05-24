@@ -9,7 +9,7 @@ export default defineConfig({
     },
   },
   fmt: {
-    ignorePatterns: ['**/node_modules/**', '**/dist/**', '**/fixtures/**'],
+    ignorePatterns: ['**/node_modules/**', '**/dist/**'],
     printWidth: 100,
     singleQuote: true,
     semi: false,
