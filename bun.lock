@@ -8,15 +8,6 @@
         "vite-plus": "^0.1.22",
       },
     },
-    "apps/elysia": {
-      "name": "@apps/elysia-minimal",
-      "dependencies": {
-        "elysia": "latest",
-      },
-      "devDependencies": {
-        "bun-types": "latest",
-      },
-    },
     "apps/next-elysia": {
       "name": "@apps/next-elysia",
       "dependencies": {
@@ -53,8 +44,6 @@
   },
   "packages": {
     "@acemir/cssom": ["@acemir/cssom@0.9.31", "", {}, "sha512-ZnR3GSaH+/vJ0YlHau21FjfLYjMpYVIzTD8M8vIEQvIGxeOXyXdzCI140rrCY862p/C/BbzWsjc1dgnM9mkoTA=="],
-
-    "@apps/elysia-minimal": ["@apps/elysia-minimal@workspace:apps/elysia"],
 
     "@apps/next-elysia": ["@apps/next-elysia@workspace:apps/next-elysia"],
 
