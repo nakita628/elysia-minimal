@@ -1,0 +1,14 @@
+{
+  "name": "elysia-minimal",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "check": "vp check --fix"
+  },
+  "devDependencies": {
+    "vite-plus": "^0.1.22"
+  }
+}
